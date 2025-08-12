@@ -13,3 +13,7 @@ output "second_value_in_List" {
 output "value_in_Map" {
    value = var.v3["abc"]
 }
+
+output "value_in_Map1" {
+   value = lookup(var.v3, "abc1", "none")
+}
