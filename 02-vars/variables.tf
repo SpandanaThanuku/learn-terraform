@@ -12,3 +12,16 @@ variable "v3" {
     xyz = "hai"
   }
 }
+
+variable "fruits" {
+  default = {
+    apple = {
+      price = 10
+      quantity = 100
+    }
+    orange = {
+      price    = 5
+      quantity = 200
+    }
+  }
+}
