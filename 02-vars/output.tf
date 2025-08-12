@@ -19,5 +19,5 @@ output "value_in_Map1" {
 }
 
 output "second_value_in_list" {
-   value = element(var.v2, 4)
+   value = element(var.v2, 5)
 }
