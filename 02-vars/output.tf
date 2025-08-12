@@ -26,6 +26,6 @@ output "fruitdetails" {
   value = "Fruit Name - Apple , quantity - ${var.fruits["apple"]["quantity"]}"
 }
 
-output "fruitdetails1" {
-  value = "Fruit Name - Apple , quantity"
-}
+#output "fruitdetails1" {
+#  value = "Fruit Name - Apple , quantity"
+#}
